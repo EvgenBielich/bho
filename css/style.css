@@ -98,7 +98,7 @@ img {
   screen and (min-resolution: 192dpi) and (min-width: 320px),
   screen and (min-resolution: 2dppx) and (min-width: 320px) {
   .title-page {
-    background-image: url("../images/form-mobile-2x.jpg");
+    background-image: url("../images/form-mobile@2x.jpg");
   }
 }
 
@@ -139,6 +139,8 @@ img {
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0);
   padding-left: 28px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   color: var(--primary-white-color);
 }
 
@@ -180,7 +182,7 @@ img {
     screen and (min-resolution: 192dpi) and (min-width: 768px),
     screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .title-page {
-      background-image: url("/images/form-tablet-2x.png");
+      background-image: url("/images/form-tablet@2x.png");
     }
   }
 
@@ -214,7 +216,7 @@ img {
     screen and (min-resolution: 192dpi) and (min-width: 1680px),
     screen and (min-resolution: 2dppx) and (min-width: 1680px) {
     .title-page {
-      background-image: url("/images/form-desktop-2x.png");
+      background-image: url("/images/form-desktop@2x.png");
     }
   }
 
@@ -222,11 +224,13 @@ img {
     font-size: 46px;
     line-height: 1.304;
     margin-bottom: 50px;
+    width: 1090px;
+    margin-left: 100px;
   }
 
   .form-text {
-    font-size: 36px;
-    line-height: 1.027;
+    font-size: 30px;
+    line-height: 1.233;
     margin-bottom: 56px;
   }
 
@@ -237,4 +241,154 @@ img {
   .btn {
     margin-top: 50px;
   }
+
+  .form-input {
+    width: 478px;
+    height: 70px;
+    padding-left: 40px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+  }
+
+  .form-input::placeholder {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .btn {
+    font-size: 14px;
+    line-height: 1.214;
+    min-width: 354px;
+    height: 70px;
+    padding: 27px 25px;
+    margin-top: 50px;
+  }
+}
+
+/* НАША ПРОГРАММА */
+
+.our-programm {
+  background-color: #111518;
+  padding-bottom: 537px;
+}
+
+.programm-title {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 42px;
+  color: var(--primary-white-color);
+}
+
+.our-programm-list-item::after {
+  content: "";
+  position: absolute;
+  left: -7px;
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: var(--accent-color);
+  border-radius: 50%;
+}
+
+.our-programm-list {
+  padding-left: 30px;
+  margin-left: 72px;
+  color: var(--primary-white-color);
+  position: relative;
+  border-left: 1px solid white;
+}
+
+.our-programm-list-item {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.our-programm-list-wrapper-item {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 164.9%;
+  letter-spacing: 0.08em;
+  color: #ff6b09;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  text-transform: none;
+}
+
+.our-programm-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  color: #b9b9b9;
+  opacity: 0.5;
+}
+
+.list-wrapper-text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .our-programm-list-wrapper {
+    display: flex;
+  }
+
+  .our-programm-list-wrapper-item {
+    margin-right: 50px;
+  }
+
+  .programm-title {
+    text-align: start;
+  }
+}
+
+/* Почему нас выбирают */
+
+.programm-container {
+  width: 280px;
+  background-color: #fff;
+  position: absolute;
+}
+
+.programm-container-title {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 136%;
+  /* or 27px */
+  letter-spacing: 0.03em;
+  width: 180px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.programm-container-list {
+  padding: 20px 0;
+}
+
+.programm-container-list-item {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 164.9%;
+  letter-spacing: 0.08em;
+  color: #ff6b09;
+  margin-bottom: 20px;
+}
+
+.programm-container-list-item-text {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  letter-spacing: 0.08em;
+
+  color: #111518;
+  margin-top: 10px;
 }
