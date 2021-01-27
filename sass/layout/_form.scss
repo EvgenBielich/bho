@@ -1,4 +1,6 @@
 .form-section {
+  padding: 50px 0;
+
   background-color: #111518;
   background-image: url("/images/form-mobile.png");
   background-repeat: no-repeat;
@@ -95,6 +97,7 @@
 
 @media screen and (min-width: 768px) {
   .form-section {
+    padding: 50px 0 71px 0;
     background-image: url("/images/form-tablet.png");
   }
 
@@ -128,6 +131,7 @@
 
 @media screen and (min-width: 1344px) {
   .form-section {
+    padding: 100px 0 62px 0;
     background-image: url("/images/form-desktop.png");
     background-size: cover;
   }

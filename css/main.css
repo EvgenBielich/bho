@@ -85,18 +85,6 @@ img {
   padding: 50px 0;
 }
 
-@media screen and (min-width: 768px) {
-  .section {
-    padding: 50px 0 71px 0;
-  }
-}
-
-@media screen and (min-width: 1344px) {
-  .section {
-    padding: 100px 0 62px 0;
-  }
-}
-
 .header {
   position: relative;
 }
@@ -374,6 +362,7 @@ img {
 }
 
 .form-section {
+  padding: 50px 0;
   background-color: #111518;
   background-image: url("/images/form-mobile.png");
   background-repeat: no-repeat;
@@ -468,6 +457,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .form-section {
+    padding: 50px 0 71px 0;
     background-image: url("/images/form-tablet.png");
   }
 }
@@ -498,6 +488,7 @@ img {
 
 @media screen and (min-width: 1344px) {
   .form-section {
+    padding: 100px 0 62px 0;
     background-image: url("/images/form-desktop.png");
     background-size: cover;
   }
