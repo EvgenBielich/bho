@@ -123,15 +123,15 @@
   }
 }
 
-@media screen and (min-width: 1314px) {
+@media screen and (min-width: 1344px) {
   .form-section {
     background-image: url("/images/form-desktop.png");
     background-size: cover;
   }
 
-  @media screen and (min-device-pixel-ratio: 2) and (min-width: 1314px),
-    screen and (min-resolution: 192dpi) and (min-width: 1314px),
-    screen and (min-resolution: 2dppx) and (min-width: 1314px) {
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 1344px),
+    screen and (min-resolution: 192dpi) and (min-width: 1344px),
+    screen and (min-resolution: 2dppx) and (min-width: 1344px) {
     .title-page {
       background-image: url("/images/form-desktop@2x.png");
     }
