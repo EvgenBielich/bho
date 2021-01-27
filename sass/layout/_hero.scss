@@ -1,0 +1,48 @@
+.hero {
+  padding-bottom: 77px;
+  background-image: url("/images/hero-bcg.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 768px 618px;
+}
+
+.hero-title {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 136%;
+  letter-spacing: 0.03em;
+  color: #111518;
+  margin-bottom: 30px;
+}
+
+.hero-text {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.08em;
+  color: #111518;
+}
+
+.hero-text-small {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.08em;
+  color: #b9b9b9;
+}
+
+.hero-btn {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.title-img {
+  width: 208px;
+  height: 177px;
+}
+
+.hero-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

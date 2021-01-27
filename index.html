@@ -19,6 +19,116 @@
   </head>
 
   <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navigation">
+          <a class="logo link"
+            ><p class="logo-text">
+              HEII
+              <svg class="logo-icon">
+                <use href="./images/sprite.svg#icon-fire"></use>
+              </svg>
+              EN
+            </p>
+            <p class="logo-text-small">Адский английский</p>
+          </a>
+
+          <button
+            type="button"
+            class="menu-btn-mobile"
+            aria-expanded="false"
+            aria-controls="menu-container"
+            data-menu-button
+          >
+            <svg
+              class="menu-btn-icon"
+              aria-label="Переключатель мобильного меню"
+            >
+              <use
+                class="icon-menu"
+                href="./images/sprite.svg#icon-menu-new"
+              ></use>
+              <use
+                class="icon-cross"
+                href="./images/sprite.svg#icon-close"
+              ></use>
+            </svg>
+          </button>
+
+          <div class="menu-mobile" id="menu-container" data-menu>
+            <div class="logo-mobile-wrapper">
+              <a class="logo link"
+                ><p class="logo-text-menu">
+                  HEII
+                  <svg class="logo-icon">
+                    <use href="./images/sprite.svg#icon-fire"></use>
+                  </svg>
+                  EN
+                </p>
+                <p class="logo-text-small-menu">Адский английский</p>
+              </a>
+            </div>
+
+            <div class="nav-block">
+              <ul class="navigation-list list">
+                <li class="navigation-list-item">
+                  <a class="navigation-list-link link" href="index.html"
+                    >Программа обучения</a
+                  >
+                </li>
+                <li class="navigation-list-item">
+                  <a
+                    class="navigation-list-link link activ navigation-list-link-activ"
+                    href="portfolio.html"
+                    >О нас</a
+                  >
+                </li>
+                <li class="navigation-list-item">
+                  <a class="navigation-list-link link" href="#"
+                    >Варианты обучения</a
+                  >
+                </li>
+                <li class="navigation-list-item">
+                  <a class="navigation-list-link link" href="#">Контакты</a>
+                </li>
+              </ul>
+
+              <button type="button" class="btn-menu">
+                хочу на бесплатное занятие
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero-title">
+          Комплексная подготовка к ВНО <br />
+          по английскому языку
+        </h1>
+
+        <p class="hero-text">
+          <span class="hero-text-small">Просто не будет. <br /></span>Но ты
+          гарантировано наберешь
+          <span class="accent-color-text">+25 баллов</span>
+        </p>
+
+        <div class="hero-wrapper">
+          <button type="button" class="btn hero-btn">
+            хочу на бесплатное занятие
+          </button>
+
+          <img
+            class="title-img"
+            src="/images/title-mobile.jpg"
+            alt="учитель и ученики"
+          />
+        </div>
+      </div>
+    </section>
+
     <!-- <section class="our-programm section">
       <div class="container">
         <h2 class="programm-title">Наша программа</h2>
@@ -222,9 +332,13 @@
             placeholder="Телефон*"
           />
 
-          <button type="button" class="btn">хочу на бесплатное занятие</button>
+          <button type="button" class="btn form-btn">
+            хочу на бесплатное занятие
+          </button>
         </form>
       </div>
     </section>
+
+    <script src="./js/menu.js"></script>
   </body>
 </html>
